@@ -1,0 +1,13 @@
+:root { --ink:#1f2933; --steel:#2f3e4e; --safety:#e8a317; }
+body { background:#f3f4f6; color:var(--ink); }
+.topbar { background:var(--steel); border-bottom:4px solid var(--safety); }
+.nav-pills .nav-link { color:var(--steel); }
+.nav-pills .nav-link.active { background:var(--steel); }
+.btn-primary { background:var(--steel); border-color:var(--steel); }
+.btn-primary:hover, .btn-primary:focus { background:#1d2935; border-color:#1d2935; }
+.qa { background:#fff; border:1px solid #d9dde3; border-left:5px solid var(--steel); border-radius:.4rem; padding:1rem; margin-bottom:1rem; }
+.qa.unanswered { border-left-color:#c0392b; }
+.qa .answer { white-space:pre-wrap; }
+.source { background:#f7f8fa; border:1px solid #e1e4e8; border-radius:.3rem; padding:.6rem .8rem; margin-top:.6rem; font-size:.9rem; }
+.source blockquote { margin:.4rem 0 0; color:#4a5560; white-space:pre-wrap; }
+.meta { color:#6b7580; font-size:.85rem; }
