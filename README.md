@@ -57,3 +57,4 @@ Browser (Bootstrap + JS) --session cookie + CSRF--> Django REST API
 4. Engineer: ask something unrelated -> "not enough information".
 5. Engineer tries uploading: no upload UI, and `POST /api/manuals/` returns 403 (see test).
 6. Supervisor: history view, filter unanswered. Reload the page to show persistence.
+7. http://127.0.0.1:8000/
